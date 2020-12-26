@@ -11,10 +11,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "reactocker"
+  app: "Reactocker"
   env: "Reactocker-env"
   bucket_name: "elasticbeanstalk-us-east-2-919006835495"
-  bucket_path: "reactocker"
+  bucket_path: "Reactocker"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
